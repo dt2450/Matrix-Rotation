@@ -116,12 +116,7 @@ int main() {
             max_col -= 1;
             continue;
         }
-        /*if(elem_size%rotate_by == 0) {
-            skip_index = elem_size/rotate_by;
-            printf("0. skip_index=%d\n", skip_index);
-        } else {
-            skip_index = 0;
-        }*/
+
         i = top_left_row;
         j = top_left_col;
         curr_element = matrix[i][j];
